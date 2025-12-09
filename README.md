@@ -81,7 +81,7 @@ npm run start:dev
 ```
 ---
 
-##🧪 Rodando Testes
+## 🧪 Rodando Testes
 O projeto possui testes configurados para garantir a qualidade do código.
 
 Testes do Backend (Unitários e Integração)
