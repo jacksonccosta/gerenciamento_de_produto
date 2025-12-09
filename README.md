@@ -78,3 +78,9 @@ npm install
 npx prisma generate
 npx prisma db push
 npm run start:dev
+```
+---
+
+## <img align="center" alt="Postman" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" /> POSTMAN:
+
+Caso queira testar os endpoints no Postman, na raiz do projeto projeto consta o arquivo <b>API de Produtos e Pedidos.postman_collection.json</b> com as Collections que podem ser importadas no Postman para os testes.
