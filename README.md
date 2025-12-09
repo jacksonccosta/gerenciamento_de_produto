@@ -81,6 +81,29 @@ npm run start:dev
 ```
 ---
 
+##🧪 Rodando Testes
+O projeto possui testes configurados para garantir a qualidade do código.
+
+Testes do Backend (Unitários e Integração)
+O backend utiliza Jest para validar regras de negócio e serviços (ex: validação de estoque, criação de pedidos).
+
+No terminal do backend (cd backend), execute:
+```Bash
+npm run test
+```
+Para ver a cobertura dos testes:
+
+```Bash
+npm run test:cov
+```
+Testes do Frontend (Snapshot)
+O frontend está configurado para testes de componentes (caso implementados futuramente ou snapshots básicos).
+
+No terminal do frontend (cd frontend), execute:
+```Bash
+npm run test
+```
+
 ## <img align="center" alt="Postman" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" /> POSTMAN:
 
 Caso queira testar os endpoints no Postman, na raiz do projeto projeto consta o arquivo <b>API de Produtos e Pedidos.postman_collection.json</b> com as Collections que podem ser importadas no Postman para os testes.
